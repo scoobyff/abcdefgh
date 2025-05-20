@@ -1,6 +1,6 @@
 <?php
 $get = $_GET['get'];
-$mpdUrl = 'https://live1-814bffb9b389f652-cf.foxtelgroupcdn.net.au/out/v1' . $get;
+$mpdUrl = 'https://live1-814bffb9b389f652-cf.foxtelgroupcdn.net.au/' . $get;
 
 $mpdheads = [
   'http' => [
